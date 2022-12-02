@@ -14,7 +14,7 @@
 has_one :augury
 has_one :result
 
-## augury table
+## augurys table
 
 | Column             | Type                | Options                   |
 |--------------------|---------------------|---------------------------|
