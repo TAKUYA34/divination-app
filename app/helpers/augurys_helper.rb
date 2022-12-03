@@ -1,0 +1,2 @@
+module AugurysHelper
+end
