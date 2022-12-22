@@ -15,14 +15,16 @@
         <h1 class="title"><a href="/">Divination App</a></h1>
       </div>
       <div class="navbar">
-        <div class="nav-list">
-          <li class="nav-new">
-            新規登録
-          </li>
-          <li class="nav-login">
-            ログイン
-          </li>
-        </div>
+        <% if user_signed_in? %>
+          <div class="nav-list">
+            <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "nav-new" %>
+          </div>
+        <% else %>
+          <div class="nav-list">
+            <%= link_to "新規登録", new_user_registration_path, class: "nav-new" %>
+            <%= link_to "ログイン", new_user_session_path, class: "nav-login" %>
+          </div>
+        <% end %>
       </div>
     </header>
     <%= yield %>
