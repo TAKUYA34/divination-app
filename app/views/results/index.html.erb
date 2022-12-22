@@ -1,0 +1,45 @@
+<%= form_with model: @result, local: true do |f| %>
+<div class="form-wp">
+  <div class="form-header">
+    <%= "#{@result.nickname}さんの運勢は..." %>
+  </div>
+  <% case @result.sign when "牡羊座","牡牛座","双子座" %>
+    <div class="main-tc">
+      <div class="main-second">
+        <h2>
+        <p class="text-message">大吉です！！</p>
+        素晴らしい一日になるでしょう。
+        </h2>
+      </div>
+    </div>
+  <% when "蟹座","獅子座","乙女座" %>
+    <div class="main-tc">
+      <div class="main-second">
+        <h2>
+        <p class="text-message">吉です！！</p>
+        今日はカレーを食べるといい事あるでしょう。
+        </h2>
+      </div>
+    </div>
+  <% when "天秤座","魚座","射手座" %>
+    <div class="main-tc">
+      <div class="main-second">
+        <h2>
+        <p class="text-message">凶です！！</p>
+        謙虚な気持ちで過ごしましょう。
+        </h2>
+      </div>
+    </div>
+  <% else %>
+    <div class="main-tc">
+      <div class="main-second">
+        <h2>
+        <p class="text-message">大凶です！！</p>
+        自分を客観的に見つめ直す必要がありそうです。
+        </h2>
+      </div>
+    </div>
+  <% end %>
+  <%= link_to "トップページ", root_path, class:"bottom-btn" %>
+<% end %>
+</div>
