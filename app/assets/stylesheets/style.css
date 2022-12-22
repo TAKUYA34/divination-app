@@ -41,6 +41,8 @@ a {
 
 .nav.login {
   color: black;
+  display: flex;
+  margin-right: 40px;
 }
 
 li {
@@ -149,6 +151,58 @@ li {
   resize: none;
 }
 
+/* btn */
+.actions {
+  padding-left: 320px;
+  padding-top: 30px;
+}
+
+/* 詳細ページ */
+.send-second-bot {
+  top: 100px;
+  left: 150px;
+  margin: 100px;
+  padding: 30px;
+  border: 1px solid white;
+  background-color: #b5aaaa;
+  color:white;
+  display: block;
+  text-align: center;
+}
+
+/* 結果ページ */
+
+.main-tc {
+  padding: 10px;
+}
+
+.main-second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5vh 10vw;
+  margin-left: 70px;
+  color: rgb(159, 72, 75);
+  text-shadow: 0 0 5px rgb(0 0 0 / 90%);
+}
+
+.text-message {
+  display: flex;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 6vh;
+}
+
+.bottom-btn {
+  width: 30%;
+  background: palevioletred;
+  border: 1px solid palevioletred;
+  color: #fff;
+  margin-left: 280px;
+  line-height: 100px;
+  font-size: 25px;
+}
 /* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
 .contents {
 }
@@ -240,7 +294,7 @@ li {
   padding-bottom: 10px;
 }
 
-/* スタイリスト紹介 */
+/* 紹介 */
 .middle-content {
   height: 450px ;
   margin: 0 160px;
