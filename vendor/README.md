@@ -26,10 +26,13 @@ DIVINATION APP
 https://docs.google.com/spreadsheets/d/1HTS4ppwlEYU9MtuZ6kOJO5PQbNHTSsRcefQcstmA9RA/edit#gid=982722306
 
 # 実装した機能についての画像やGIFおよびその説明
+一覧機能は、新規登録、ログインがあり、占うをクリックすると占い投稿機能に遷移できます。
 [![一覧機能は、新規登録、ログインがあり、占うをクリックすると占い投稿機能に遷移できます。](https://i.gyazo.com/2380a1c1242c7a85c6b78e2ac73d8927.gif)](https://gyazo.com/2380a1c1242c7a85c6b78e2ac73d8927)
 
+投稿機能は、必要な情報を入力することで、詳細機能に遷移できます。
 [![投稿機能は、必要な情報を入力することで、詳細機能に遷移できます。](https://i.gyazo.com/fea4b2d329a96d2e22a0e9636a5dbf5c.gif)](https://gyazo.com/fea4b2d329a96d2e22a0e9636a5dbf5c)
 
+詳細機能は、投稿が完了して結果を見るボタンを押すと、結果ページに遷移できます。
 [![詳細機能は、投稿が完了して結果を見るボタンを押すと、結果ページに遷移できます。](https://i.gyazo.com/b0fba4a47010352093ef128acd45c7b2.gif)](https://gyazo.com/b0fba4a47010352093ef128acd45c7b2)
 
 # データベース設計
